@@ -1,5 +1,5 @@
-// import { API_KEY } from './secrets'
-const API_KEY = process.env.API_KEY;
+import { API_KEY } from './secrets'
+// const API_KEY = process.env.API_KEY;
 
 const BASE_URL = `https://api.unsplash.com`
 const COUNT = 30
