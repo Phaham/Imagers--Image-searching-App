@@ -44,7 +44,7 @@ function Image({ data }) {
             <img src={data.imageUrl} alt="" className="image__img" />
 
             <div className="image__footer">
-                <a href={data.profileUrl} target="_blank" className="image__footerLeft">
+                <a href={data.profileUrl} target="/" className="image__footerLeft">
                     <Avatar src={data.userImageUrl}>{data.username[0]}</Avatar>
                     <h4 className="image__footerLeftName">
                         {data.username}
